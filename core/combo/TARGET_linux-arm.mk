@@ -66,7 +66,7 @@ endif
 
 TARGET_NO_UNDEFINED_LDFLAGS := -Wl,--no-undefined
 
-TARGET_arm_CFLAGS :=    -O2 \
+TARGET_arm_CFLAGS :=    -O3 \
 			-fgcse-after-reload \
 			-fipa-cp-clone \
 			-fpredictive-commoning \
